@@ -93,12 +93,12 @@ module.exports = {
       ],
       "/work/": [
         {
-          title: "工作随记",
+          title: "work随记",
           collapsable: false,
           children: [
             ["/work/yinhai", "久远银海"],
-            ["work/work", "2022"],
-            ["work/2023work", "2023"],
+            ["/work/work2022", "2022"],
+            ["/work/2023work", "2023"],
           ],
         },
       ],
@@ -115,6 +115,7 @@ module.exports = {
           { text: "大屏开发学习", link: "/bigscreenDoc/introduce" },
           { text: "前端常用效果", link: "/animationEffect/sticky" },
           { text: "vue相关知识", link: "/vue/sticky" },
+          { text: "work随记", link: "/work/work2022" },
         ],
       },
       // 显示下拉列表
